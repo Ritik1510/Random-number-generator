@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random number generator</title>
+    <link rel="stylesheet" href="RandomNumGen.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h2>Random number generator</h2>
+    </div>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </div>
+    <div class="rs-rf-buttons">
+        <button onclick="resetButton()" id="reset-btn" class="btn">Roll</button>
+        <button onclick="refreshButton()" id="refresh-btn" class="btn">Refresh</button>
+        <input type="number" id="input-num" onclick="inputNumber()">
+    </div>
+
+    <div class="info">
+        <label>
+            Input box :- you should use to input any number to generate random number combinations.
+        </label>
+        <label>
+            Refresh button :- you can also Refresh the boxes to use again with '0 0 0 0'.
+        </label>
+        <label>
+            Roll button :- you should also press 'Roll button' for generate next combination also use "enter" key to
+            direct Roll the digits.
+        </label>
+    </div>
+    <script src="RandomNumGen.js"></script>
+</body>
+
+</html>
