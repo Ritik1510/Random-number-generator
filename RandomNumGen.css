@@ -33,6 +33,7 @@ body {
 }
 
 .box {
+    color: yellow;
     margin: 5px;
     border-radius: 9px;
     border: 2px solid yellow;
@@ -84,4 +85,9 @@ label{
     box-shadow: -8px -8px 15px -9px rgb(220, 188, 188, 0.1),
     inset -4px -4px 7.5px -7.5px white;
 
+}
+
+.highlight{
+    color: yellow;
+    font-weight: 700;
 }
